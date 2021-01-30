@@ -1,0 +1,107 @@
+#panel-manjaro-label {
+    margin-top: 40px;
+    color: #28a745;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#panel-download-label {
+    color: white;
+    margin-top: 20px;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+#container {
+    width: 80%;
+}
+
+#logo-img {
+    width: 30%;
+    min-width: 400px;
+}
+
+#container>p {
+    margin: 30px auto 20px auto;
+}
+
+#header-p {
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: #212529;
+}
+
+#header-p>span {
+    color: #6c757d;
+}
+
+#for-align {
+    text-align: center;
+    background-color: #212529;
+    padding-top: 120px;
+    height: 280px;
+}
+
+#for-align>p {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.container-obj {
+    border-radius: 30px;
+    background-clip: content-box;
+    padding: 15px;
+}
+
+.container-contents {
+    line-height: 170%;
+    text-align: center;
+    margin: 20px;
+    word-break: break-all;
+}
+
+.container-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.index-image {
+    text-align: center;
+}
+
+#divider {
+    border: none;
+    margin: 15px auto 30px auto;
+    max-width: 50px;
+    border: 2px solid #6c757d;
+}
+
+.con-img {
+    width: 40%;
+}
+
+.con-title {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 auto .5rem auto;
+    color: #212529;
+    width: 50%
+}
+
+.con-title:hover {
+    color: #007bff;
+}
+
+.con-value {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.rotate {
+    transition: all ease 1s;
+}
+
+.rotate:hover {
+    transform: rotate( -360deg);
+}

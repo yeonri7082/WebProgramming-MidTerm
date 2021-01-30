@@ -1,0 +1,107 @@
+#member-panel {
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/wallpaper/member.jpg");
+    padding-top: 120px;
+    margin-bottom: 40px;
+    height: 280px;
+}
+
+#panel-img {
+    min-width: 100px;
+    width: 10%;
+}
+
+#panel-label {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+}
+
+#container {
+    width: 90%;
+}
+
+.container-list::after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.container-list {
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 auto 100px auto;
+    box-shadow: 0 5px 25px 0 #0003;
+    width: 80%;
+    max-width: 1000px;
+    height: 600px;
+}
+
+.contents {
+    width: 60%;
+    text-align: initial;
+    background-color: white;
+    padding: 30px;
+    word-break: break-all;
+    overflow: auto;
+    vertical-align: top;
+}
+
+.f-right {
+    float: right;
+    margin-left: 5px;
+}
+
+.f-left {
+    float: left;
+    margin-right: 5px;
+}
+
+.contents-focus {
+    flex-basis: 40%;
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 10px;
+    text-align: center;
+    word-break: keep-all;
+    vertical-align: top;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contents-name {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.contents-role {
+    vertical-align: top;
+    font-size: 1.1rem;
+}
+
+.contents-value {
+    line-height: 170%;
+    font-size: 1.2rem;
+}
+
+#vocal-img {
+    background-image: url("../images/member/vocal.jpg");
+}
+
+#guitar-img {
+    background-image: url("../images/member/guitar.jpg");
+}
+
+#base-img {
+    background-image: url("../images/member/base.jpg");
+}
+
+#drum-img {
+    background-image: url("../images/member/drum.jpg");
+}

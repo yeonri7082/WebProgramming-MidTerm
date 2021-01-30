@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nell Musics</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/body.css" />
+    <link rel="stylesheet" type="text/css" href="./css/musics.css" />
+    <link rel="stylesheet" type="text/css" href="./css/header.css" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <a id="logo" href="./index.html"> </a>
+            <a class="header-list" href="./member.html">멤버 목록</a>
+            <a class="header-list" href="./musics.html">디스코그래피</a>
+            <a class="header-list" href="./history.html">연혁</a>
+        </div>
+        <div id="member-panel">
+            <img id="panel-img" src="./images/nell_logo.png" />
+            <p id="panel-label" class="custom-p">Discography</p>
+        </div>
+        <div id="container">
+            <p class="custom-p album-cat">정규 앨범</p>
+            <div class="c-table table">
+                <div class="row">
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/17.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">Reflection of</p>
+                                <p class="custom-p album-date">믿어선 안될 말</p>
+                                <p class="custom-p album-sub">1st Indie Album</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/18.jpg');">
+                            </div>
+                            <div class=" album-value">
+                                <p class="custom-p album-name">Speechless</p>
+                                <p class="custom-p album-date">조금은 슬픈 이야기</p>
+                                <p class="custom-p album-sub">2nd Indie Album</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/9.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">Let it Rain</p>
+                                <p class="custom-p album-date">Stay</p>
+                                <p class="custom-p album-sub">1st Album</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/10.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">Walk Through Me</p>
+                                <p class="custom-p album-date">Thank You</p>
+                                <p class="custom-p album-sub">2nd Album</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/11.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">Healing Process</p>
+                                <p class="custom-p album-date">마음을 잃다</p>
+                                <p class="custom-p album-sub">3rd Album</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart">
+                                <div id="memory-time-spinner">
+                                    <div id="memory-time" onmouseenter="startMusic()" onmouseout="stopMusic()" style="background-image: url('./images/albumart/12.jpg');">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">Separation Anxiety</p>
+                                <p class="custom-p album-date">기억을 걷는 시간</p>
+                                <p class="custom-p album-sub">4th Album</p>
+
+                                <audio preload id="play_music">
+                                    <source src="./static/music.mp3" type="audio/mpeg">
+                                </audio>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/13.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">Slip Away</p>
+                                <p class="custom-p album-date">그리고, 남겨진 것들</p>
+                                <p class="custom-p album-sub">5th Album</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/14.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">Newton's Apple</p>
+                                <p class="custom-p album-date">지구가 태양을 네 번</p>
+                                <p class="custom-p album-sub">6th Album</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/15.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">C</p>
+                                <p class="custom-p album-date">Dream catcher</p>
+                                <p class="custom-p album-sub">7th Album</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/16.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">COLORS IN BLACK</p>
+                                <p class="custom-p album-date"><span style="color:red; font-weight:bold">Comming Soon</span></p>
+                                <p class="custom-p album-sub">8th Album</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="custom-p album-cat">싱글 앨범</p>
+            <div class="c-table table">
+                <div class="row">
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/2.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name" style="font-size: .9rem">Christmas In NELL's ROOM</p>
+                                <p class="custom-p album-date">2013.01.08</p>
+                                <p class="custom-p album-sub">1st Single</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/8.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">청춘연가</p>
+                                <p class="custom-p album-date">2014.12.25</p>
+                                <p class="custom-p album-sub">2nd Single</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/5.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">Star Shell</p>
+                                <p class="custom-p album-date">2015.09.18</p>
+                                <p class="custom-p album-sub">3rd Single</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/1.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">3인칭의 필요성</p>
+                                <p class="custom-p album-date">2015.12.02</p>
+                                <p class="custom-p album-sub">4th Single</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/6.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">그리워하려고 해</p>
+                                <p class="custom-p album-date">2016.12.06</p>
+                                <p class="custom-p album-sub">5th Single</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/7.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">부서진</p>
+                                <p class="custom-p album-date">2017.07.25</p>
+                                <p class="custom-p album-sub">6th Single</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/3.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name" style="font-size: .9rem">NELL X GROOVYROOM</p>
+                                <p class="custom-p album-date">2017.11.17</p>
+                                <p class="custom-p album-sub">7th Single</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contents">
+                            <div class="albumart" style="background-image: url('./images/albumart/4.jpg');">
+                            </div>
+                            <div class="album-value">
+                                <p class="custom-p album-name">Northern Lights</p>
+                                <p class="custom-p album-date">2019.08.31</p>
+                                <p class="custom-p album-sub">8th Single</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="background: #444; margin-top: 40px; padding: 10px; color: white;">
+        <div style="text-align:center;">
+            <span>Made by Minjae, Park In 2019</span>
+        </div>
+    </footer>
+</body>
+<script>
+    function startMusic() {
+        document.getElementById("play_music").play();
+    }
+
+    function stopMusic() {
+        document.getElementById("play_music").load();
+    }
+</script>
+
+</html>

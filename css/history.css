@@ -1,0 +1,28 @@
+#container {
+    width: 600px;
+    border-radius: 15px;
+    text-align: initial;
+    box-shadow: 0 5px 15px 0 #0002;
+    background-color: white;
+    padding: 10px 20px 20px 20px;
+}
+
+#logo-img {
+    width: 250px;
+}
+
+#for-align {
+    text-align: center;
+    padding-top: 85px;
+    height: 100px;
+}
+
+.year {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.value {
+    margin: 5px 0 5px 15px;
+}

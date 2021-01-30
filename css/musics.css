@@ -1,0 +1,125 @@
+#member-panel {
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/wallpaper/music.jpg ");
+    padding-top: 120px;
+    margin-bottom: 20px;
+    height: 280px;
+}
+
+#panel-img {
+    min-width: 100px;
+    width: 10%;
+}
+
+#panel-label {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+}
+
+#container {
+    max-width: 1000px;
+}
+
+.contents {
+    box-shadow: 0 5px 15px 0 #0002;
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+    text-align: initial;
+    background-color: white;
+    padding: 27px 0 27px 0;
+    word-break: break-all;
+    overflow: auto;
+    vertical-align: top;
+}
+
+.albumart {
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-basis: 180px;
+}
+
+#memory-time {
+    overflow: hidden;
+    height: 180px;
+    width: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#memory-time:hover {
+    animation-timing-function: linear;
+    animation-name: to-circle;
+    animation-duration: 0.5s;
+    animation-fill-mode: both
+}
+
+#memory-time-spinner {
+    overflow: hidden;
+    margin: auto;
+    width: 180px;
+    height: 180px;
+}
+
+#memory-time-spinner:hover {
+    animation-timing-function: linear;
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+@keyframes to-circle {
+    to {
+        border-radius: 100%;
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.album-cat {
+    margin-bottom: 20px;
+    color: #212529;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.album-value {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.c-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.album-name {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.album-date {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.album-sub {
+    margin-top: 10px;
+    font-size: 1rem;
+}

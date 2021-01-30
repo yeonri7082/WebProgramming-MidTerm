@@ -1,0 +1,28 @@
+#header {
+    position: fixed;
+    width: 100%;
+    background-color: #212529;
+    padding: 5px 4px 5px 4px;
+    z-index: 1;
+}
+
+#logo {
+    height: 2rem;
+    width: 1rem;
+    display: inline-block;
+    background: transparent url(../images/min_logo.png) no-repeat scroll left center/auto 1.9rem;
+    padding: 0;
+}
+
+#header>a {
+    padding: 8px 10px 8px 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+.header-list:hover {
+    background-color: #6c757d;
+}
